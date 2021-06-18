@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: rgba(113, 59, 194, 0.2);
+
+}
+header {
+  padding: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header p {
+  font-weight: 400;
+  font-style: italic;
+  margin-left: 40px;
+}
+
+header button {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  margin-right: 40px;
+  padding: 10px;
+  width: 120px;
+
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+
+  background-color: #6b38b8;
+  color: white;
+
+  border: none;
+  border-radius: 7px;
+
+  cursor: pointer;
+  transition: .4s;
+
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+header button:hover {
+  background-color: #6b38b8;
+  box-shadow: 0 0 1em #6b38b8;
+}
+.entrar img {
+  width: 20px;
+  height: 20px;
+}
+
+main {
+  width: 90%;
+  max-width: 980px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.description {
+  margin-right: 42px;
+}
+.description h1 {
+  font-size: 42px;
+  font-weight: 400;
+  font-style: italic;
+}
+.busca {
+  color: #6b38b8;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.description p {
+  font-size: 20px;
+  margin-top: 6px;
+}
+
+.buttons {
+  margin-top: 100px;
+  display: flex;
+}
+
+.buttons img {
+  width: 20px;
+  height: 20px;
+  filter: none;
+}
+
+.description button {
+  border: none;
+  border-radius: 7px;
+  padding: 0;
+  height: 43px;
+  width: 205px;
+
+  font-family: 'Poppins', sans-serif;
+
+  cursor: pointer;
+
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.cadastroPessoa {
+  background-color: #6b38b8;
+  color: white;
+  font-size: 16px;
+  margin-left: 22px;
+  transition: .4s;
+  display: flex;
+  align-items: center;
+}
+
+.cadastroPessoa img {
+  margin-right: 10px;
+  margin-left: 30px;
+}
+
+.cadastroPessoa:hover {
+  background-color: #6b38b8;
+  box-shadow: 0 0 1em #6b38b8;
+}
+
+button.cadastroCaminhao {
+  background: none;
+  font-size: 16px;
+  color: #6b38b8;
+  font-weight: 400;
+  border: 1px solid #6b38b8;
+  transition: .4s;
+  padding: 0;
+  height: 43px;
+  margin-right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+button.cadastroCaminhao:hover {
+  box-shadow: 0 0 1em #6b38b8;
+}
+
+img {
+  height: 500px;
+  width: 500px;
+  filter: drop-shadow(4px 4px 4px rgba(68, 54, 88, 1));
+}
